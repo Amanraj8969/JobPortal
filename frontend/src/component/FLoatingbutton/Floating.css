@@ -1,0 +1,26 @@
+/* Customize the button styles according to your design */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floating-button:hover {
+    background-color: #0056b3; /* Change the color on hover, if desired */
+  }
+  a{
+    text-decoration: none;
+  }
+  

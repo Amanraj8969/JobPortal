@@ -1,0 +1,60 @@
+.service-page {
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .col {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sample-task {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sample-task img {
+    max-width: 100%;
+    height: auto;
+  }
+  .subscribe{
+    background-color: blue;
+    color: white;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+    .col {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  
+  /* Media query for mobile screens */
+  @media screen and (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .col {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  

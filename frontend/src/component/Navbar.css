@@ -1,0 +1,17 @@
+.nav_bar{
+  background-color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav_bar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+} 
+}
